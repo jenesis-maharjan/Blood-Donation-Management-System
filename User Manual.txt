@@ -1,0 +1,63 @@
+USER Manual BY SARAMSHA GORKHALI:
+
+    Step 1: Run XAMP Apache and MySQL.
+    Step 2: Go to URL "localhost/Project/2.MainPage.php".
+    Step 3: Connect to Database "sath".
+    Step 4: Check database conectivity by using either "Request Blood" or "Donate Blood".
+    Step 5: Check the Admin Page by Loging in Username = "admin", Password = "admin".
+    Step 6: Check database conectivity by using either "Event Management", "Request Logs", "Donate Logs".
+    Step 4: Check database records to see if the modifications from admin page have been done properly.
+
+Database Code
+1. For Table "blood_requests"
+
+CREATE TABLE blood_requests (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    blood_group ENUM('A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-') NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    reason VARCHAR(255) NOT NULL,
+    request_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('Pending', 'Matched') NOT NULL DEFAULT 'Pending'
+);
+
+
+2. For Table "donation_candidates"
+
+CREATE TABLE donation_candidates (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    dob DATE NOT NULL,
+    gender ENUM('Male', 'Female', 'Other') NOT NULL,
+    blood_group ENUM('A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-') NOT NULL,
+    address TEXT NOT NULL,
+    submission_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('Pending', 'Reserved') NOT NULL DEFAULT 'Pending'
+);
+
+
+3. For Table "events"
+
+CREATE TABLE events (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    image VARCHAR(255) NOT NULL,
+    event_date DATE NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    details TEXT NOT NULL
+);
+
+4. For Table "matches"
+
+CREATE TABLE matches (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    blood_request_id INT NOT NULL,
+    donation_candidate_id INT NOT NULL,
+    status ENUM('Matched', 'Canceled') NOT NULL DEFAULT 'Matched',
+    blood_group VARCHAR(10) NOT NULL,
+    FOREIGN KEY (blood_request_id) REFERENCES blood_requests(id) ON DELETE CASCADE,
+    FOREIGN KEY (donation_candidate_id) REFERENCES donation_candidates(id) ON DELETE CASCADE
+);

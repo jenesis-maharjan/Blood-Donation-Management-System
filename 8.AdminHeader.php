@@ -3,9 +3,9 @@
 <head>
     <title>Sath</title>
     <link rel="icon" href="Pics/Logo.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/Styles.css">
-    <link rel="stylesheet" href="css/Admin.css">
-    <script src="js/Admin.js" defer></script>
+    <link rel="stylesheet" href="/css/Styles.css">
+    <link rel="stylesheet" href="/css/Admin.css">
+    <script src="/js/Admin.js" defer></script>
 </head>
 <body>
     <header>

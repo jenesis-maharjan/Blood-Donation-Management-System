@@ -6,8 +6,7 @@
   },
   "routes": [
     {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|webp|ico|woff|woff2|ttf))",
-      "continue": true
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",

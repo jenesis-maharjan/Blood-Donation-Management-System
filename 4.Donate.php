@@ -1,16 +1,7 @@
 <?php
 include('1.Header.php');
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "sath";
-
-$conn = new mysqli($servername, $username, $password, $database);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'db.php';
 
 $message = "";
 $messageType = "";

@@ -3,18 +3,7 @@
 include '8.AdminHeader.php'; // Ensure 'header.php' exists in your project directory
 
 // Database connection settings
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "sath";
-
-// Create a database connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check the connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'db.php';
 
 /**
  * Function to display all blood requests with their current statuses.

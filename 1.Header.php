@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sath</title>
-    <link rel="icon" href="Pics/Logo.jpg" type="image/x-icon">
+    <link rel="icon" href="/Pics/Logo.jpg" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/Styles.css">
     <link rel="stylesheet" href="/css/Admin.css">
@@ -19,7 +19,7 @@
         <div class="header-top">
             <div class="center-content">
                 <a href="2.MainPage.php">
-                    <img src="Pics/Logo.jpg" alt="Logo" class="logo">
+                    <img src="/Pics/Logo.jpg" alt="Logo" class="logo">
                 </a>
                 <h1 class="company-name">Sath</h1>
             </div>
@@ -29,7 +29,7 @@
         <nav class="header-bottom">
             <div class="nav-left-hidden">
                 <a href="2.MainPage.php">
-                    <img src="Pics/Logo.jpg" alt="Logo" class="logo">
+                    <img src="/Pics/Logo.jpg" alt="Logo" class="logo">
                 </a>
             </div>
             <ul class="nav-menu">
@@ -49,7 +49,7 @@
             <div class="nav-right-hidden">
                 <div class="dropdown_login">
                     <button id="loginButton">
-                        <img src="Pics/profile.png" alt="Login Icon" class="icon">
+                        <img src="/Pics/profile.png" alt="Login Icon" class="icon">
                     </button>
                     <div id="loginForm" class="dropdown-content-login">
                         <form id="loginArea">

@@ -49,7 +49,7 @@
             <div class="nav-right-hidden">
                 <div class="dropdown_login">
                     <button id="loginButton">
-                        <img src="/Pics/profile.png" alt="Login Icon" class="icon">
+                        <img src="/Pics/Profile.png" alt="Login Icon" class="icon">
                     </button>
                     <div id="loginForm" class="dropdown-content-login">
                         <form id="loginArea">

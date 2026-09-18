@@ -33,10 +33,10 @@
                 <div class="footer-right">
                     <h4>Follow Us</h4>
                     <div class="socials">
-                        <a href="https://www.facebook.com/saramsha.gorkhali" target="_blank"><img src="/Pics/Facebook.png" alt="Facebook" class="social-icon"></a>
-                        <a href="https://x.com/SaramshaGo74346" target="_blank"><img src="/Pics/x.png" alt="Twitter" class="social-icon"></a>
-                        <a href="https://www.instagram.com/saramsha_13/" target="_blank"><img src="/Pics/Instagram.png" alt="Instagram" class="social-icon"></a>
-                        <a href="https://np.linkedin.com/in/saramsha-gorkhali-12696429a?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img src="/Pics/Linkedin.png" alt="Linkinn" class="social-icon"></a>
+                        <a href="https://www.facebook.com/aman.maharjan.9693/" target="_blank"><img src="/Pics/Facebook.png" alt="Facebook" class="social-icon"></a>
+                        <a href="https://x.com/JenesisMaharjan" target="_blank"><img src="/Pics/x.png" alt="Twitter" class="social-icon"></a>
+                        <a href="https://www.instagram.com/aman_maharjan154/" target="_blank"><img src="/Pics/Instagram.png" alt="Instagram" class="social-icon"></a>
+                        <a href="https://www.linkedin.com/in/jenesis-maharjan-144188323/" target="_blank"><img src="/Pics/Linkedin.png" alt="Linkedin" class="social-icon"></a>
                         <a href="https://www.youtube.com/" target="_blank"><img src="/Pics/Youtube.png" alt="Youtube" class="social-icon"></a>
                     </div>
                 </div>

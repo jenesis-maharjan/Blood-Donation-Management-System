@@ -38,7 +38,7 @@
             <p>Blood donation is a vital part of healthcare, providing essential support to patients in need. Every donation can save up to three lives, making it a crucial act of kindness and generosity. Regular blood donors help maintain a stable blood supply for hospitals and clinics, ensuring that those in need receive timely treatment.</p>
         </div>
         <div class="image">
-            <img src="Pics/Importance.png" alt="Blood Donation" style="scale:95%">
+            <img src="/Pics/Importance.png" alt="Blood Donation" style="scale:95%">
         </div>
     </section>
 
@@ -78,12 +78,12 @@
         <h2>Meet Our Team</h2>
         <div class="team-container">
             <div class="team-member">
-                <img src="Pics/Saramsha.jpg" alt="Saramsha Gorkhali">
+                <img src="/Pics/Saramsha.jpg" alt="Saramsha Gorkhali">
                 <h3>Saramsha Gorkhali</h3>
                 <p>Project Manager</p>
             </div>
             <div class="team-member">
-                <img src="Pics/Aman.jpg" alt="Jenesis Maharjan">
+                <img src="/Pics/Aman.jpg" alt="Jenesis Maharjan">
                 <h3>Jenesis Maharjan</h3>
                 <p>Project Manager</p>
             </div>
@@ -94,16 +94,16 @@
         <h2>Partners</h2>
         <div class="partner-container">
             <div class="partner-member">
-                <img src="Pics/p1.png" alt="Partner 1">
+                <img src="/Pics/p1.png" alt="Partner 1">
             </div>
             <div class="partner-member">
-                <img src="Pics/p2.png" alt="Partner 2">
+                <img src="/Pics/p2.png" alt="Partner 2">
             </div>
             <div class="partner-member">
-                <img src="Pics/p3.png" alt="Partner 3">
+                <img src="/Pics/p3.png" alt="Partner 3">
             </div>
             <div class="partner-member">
-                <img src="Pics/p4.png" alt="Partner 4">
+                <img src="/Pics/p4.png" alt="Partner 4">
             </div>
         </div>
     </section>

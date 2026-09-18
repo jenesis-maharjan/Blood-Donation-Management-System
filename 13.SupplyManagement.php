@@ -1,16 +1,7 @@
 <?php
 include '8.AdminHeader.php';
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "sath";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'db.php';
 
 /* Display all matches with their current statuses */
 function display_matches($conn) {

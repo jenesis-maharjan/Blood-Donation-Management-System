@@ -1,16 +1,7 @@
 <?php
 include('8.AdminHeader.php');
 
-$servername = "localhost";
-$username = "root";
-$password = ""; 
-$database = "sath";
-
-$conn = new mysqli($servername, $username, $password, $database);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once 'db.php';
 
 // Handle status update form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_status'])) {

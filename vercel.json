@@ -1,6 +1,21 @@
 {
   "functions": {
-    "api/test.php": {
+    "api/main.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/request.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/donate.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/events.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/information.php": {
+      "runtime": "vercel-php@0.9.0"
+    },
+    "api/checking.php": {
       "runtime": "vercel-php@0.9.0"
     }
   }

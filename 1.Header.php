@@ -18,7 +18,7 @@
         <!-- Top Section of the Header -->
         <div class="header-top">
             <div class="center-content">
-                <a href="2.MainPage.php">
+                <a href="/api/main.php">
                     <img src="/Pics/Logo.jpg" alt="Logo" class="logo">
                 </a>
                 <h1 class="company-name">Sath</h1>
@@ -28,7 +28,7 @@
         <!-- Lower Section of the Header (Navigation) -->
         <nav class="header-bottom">
             <div class="nav-left-hidden">
-                <a href="2.MainPage.php">
+                <a href="/api/main.php">
                     <img src="/Pics/Logo.jpg" alt="Logo" class="logo">
                 </a>
             </div>
@@ -36,15 +36,15 @@
                 <li>
                     <a href="#" class="dropdown-toggle">About Us ▼</a>
                     <ul class="dropdown">
-                        <li><a href="6.Information.php">Blood Information</a></li>
-                        <li><a href="2.MainPage.php#what-we-do">What We Do</a></li>
-                        <li><a href="2.MainPage.php#our-team">Our Team</a></li>
-                        <li><a href="5.Events.php">Events</a></li>
+                        <li><a href="/api/information.php">Blood Information</a></li>
+                        <li><a href="/api/main.php#what-we-do">What We Do</a></li>
+                        <li><a href="/api/main.php#our-team">Our Team</a></li>
+                        <li><a href="/api/events.php">Events</a></li>
                     </ul>
                 </li>
-                <li><a href="3.Request.php">Request Blood</a></li>
-                <li><a href="4.Donate.php">Donate Blood</a></li>
-                <li><a href="14.Checking.php">Tracking</a></li>
+                <li><a href="/api/request.php">Request Blood</a></li>
+                <li><a href="/api/donate.php">Donate Blood</a></li>
+                <li><a href="/api/checking.php">Tracking</a></li>
             </ul>
             <div class="nav-right-hidden">
                 <div class="dropdown_login">

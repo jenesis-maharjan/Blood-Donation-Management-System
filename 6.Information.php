@@ -50,7 +50,7 @@
                 <p>There are four main blood types: A, B, AB, and O, each of which can be Rh-positive or Rh-negative.</p>
                 <div class="image-space">
                     <!-- Placeholder for a blood types photo -->
-                    <img src="Pics/BloodGroups.png" alt="Blood Types" class="placeholder">
+                    <img src="/Pics/BloodGroups.png" alt="Blood Types" class="placeholder">
                 </div>
             </div>
         </section>
@@ -61,14 +61,14 @@
                 <div class="component">
                     <h3>Red Blood Cells</h3>
                     <div class="image-space">
-                        <img src="Pics/Rbc.png" alt="Red Blood Cells" class="placeholder">
+                        <img src="/Pics/Rbc.png" alt="Red Blood Cells" class="placeholder">
                     </div>
                     <p>Red cells, the most abundant in the bloodstream, transport oxygen to your body's tissues. They have a biconcave shape, making them flexible to pass through tiny capillaries.</p>
                 </div>
                 <div class="component">
                     <h3>White Blood Cells</h3>
                     <div class="image-space">
-                        <img src="Pics/Wbc.png" alt="White Blood Cells" class="placeholder">
+                        <img src="/Pics/Wbc.png" alt="White Blood Cells" class="placeholder">
                     </div>
                     <p>White blood cells are the defenders of your immune system, combating infections and protecting the body from harmful invaders. They constitute only about 1% of your blood.</p>
                 </div>
@@ -77,14 +77,14 @@
                 <div class="component">
                     <h3>Plasma</h3>
                     <div class="image-space">
-                        <img src="Pics/Plasma.png" alt="Plasma" class="placeholder">
+                        <img src="/Pics/Plasma.png" alt="Plasma" class="placeholder">
                     </div>
                     <p>Plasma is the liquid part of the blood, rich in water, proteins, and essential substances. It plays a key role in transporting nutrients, hormones, and proteins throughout the body.</p>
                 </div>
                 <div class="component">
                     <h3>Platelets</h3>
                     <div class="image-space">
-                        <img src="Pics/Platelets.png" alt="Platelets" class="placeholder">
+                        <img src="/Pics/Platelets.png" alt="Platelets" class="placeholder">
                     </div>
                     <p>Platelets are tiny cell fragments that form clots to stop bleeding at injury sites. They gather and create a platform for coagulation, preventing blood loss.</p>
                 </div>

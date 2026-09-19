@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/Information.css">
-    <link rel="icon" href="Pics/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/Information.css">
+    <link rel="icon" href="/Pics/Logo.jpg" type="image/x-icon">
 
 </head>
 <body>
